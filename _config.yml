@@ -1,3 +1,7 @@
 theme: jekyll-theme-dinky
 title: MEOM's catalog
 description: List of all the datasets that are produced and distributed by MEOM
+
+collections:
+  datasets:
+    output: true
