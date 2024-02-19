@@ -7,6 +7,7 @@ layout: default
 This is where you can find all the informations about the available datasets extracted from simulations performed by MEOM
 
 <table>
+  <thead>
       <tr>
           <th> Name of dataset</th>
           <th> Configuration</th>
@@ -21,6 +22,8 @@ This is where you can find all the informations about the available datasets ext
           <th> GRICAD path</th>
           <th> Adastra path</th>
       </tr>  
+  </thead>
+  <tbody>
   {% for e in site.data.datasets %}
       <tr>
           <th>{{ e.title }}</th>
@@ -37,4 +40,5 @@ This is where you can find all the informations about the available datasets ext
           <th>{{ e.adastra }}</th>
       </tr>
   {% endfor %}
+  </tbody>
 </table>
