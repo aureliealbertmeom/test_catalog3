@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# MEOM catalog
+# {{ site.title }}
 
 This is where you can find all the informations about the available datasets extracted from simulations performed by MEOM
 
