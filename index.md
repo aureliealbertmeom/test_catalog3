@@ -2,6 +2,10 @@
 layout: default
 ---
 
+  {% for post in site.datasets %}
+  - {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url | relative_url }})
+  {% endfor %}
+
 
 <table>
   <thead>
