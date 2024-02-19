@@ -24,7 +24,7 @@ This is where you can find all the informations about the available datasets ext
       </tr>  
   </thead>
   <tbody>
-  {% for e in site.data.datasets %}
+  {% for e in site.datasets %}
       <tr>
           <th>{{ e.title }}</th>
           <th>{{ e.config }}</th>
