@@ -23,18 +23,18 @@ This is where you can find all the informations about the available datasets ext
       </tr>  
   {% for e in site.data.datasets %}
       <tr>
-          <th>{{ e.title}</th>
-          <th>{{ e.config}</th>
-          <th>{{ e.simu}</th>
-          <th>{{ e.region}</th>
-          <th>{{ e.period}</th>
-          <th>{{ e.freq}</th>
-          <th>{{ e.vars}</th>
-          <th>{{ e.size}</th>
-          <th>{{ e.opendap}</th>
-          <th>{{ e.cal1}</th>
-          <th>{{ e.gricad}</th>
-          <th>{{ e.adastra}</th>
+          <th>{{ e.title }}</th>
+          <th>{{ e.config }}</th>
+          <th>{{ e.simu }}</th>
+          <th>{{ e.region }}</th>
+          <th>{{ e.period }}</th>
+          <th>{{ e.freq }}</th>
+          <th>{{ e.vars }}</th>
+          <th>{{ e.size }}</th>
+          <th>{{ e.opendap }}</th>
+          <th>{{ e.cal1 }}</th>
+          <th>{{ e.gricad }}</th>
+          <th>{{ e.adastra }}</th>
       </tr>
   {% endfor %}
 </table>
